@@ -58,9 +58,9 @@ char	*ft_next_line(char *str_ing)
 	int		len;
 	char	*next;
 
-	len = ft_strlen(str_ing);
 	if (!str_ing)
 		return (NULL);
+	len = ft_strlen(str_ing);
 	if (ft_strchr(str_ing, '\n') && (str_ing[0]))
 	{
 		i = 0;
